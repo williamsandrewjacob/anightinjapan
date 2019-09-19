@@ -9,6 +9,8 @@ When you first arrive in Tokyo it won’t be long before you need to use the sub
 
 Known as the Tōkyō chikatetsu, in English it can be translated and referred to as the Tokyo Metro, subway or even the Tokyo Underground depending on who you are talking to but hotel conceirge desks and locals we spoke to generally referred to it as the subway so we mostly stuck with that to avoid confusion.
 
+![blog-3a.jpg](/uploads/blog-3a.jpg)
+
 ### Stored value & discount cards
 
 Unless you’re only in the country for a day or two you’ll really benefit from grabbing a stored value card.  It’ll make getting on and off the trains so much quicker than using the  ticket machines all the time.  You can buy a PASMO card from a machine or the station office and then just top it up when you need to.  If you already have another Japanese transport card like the Suica or ICOCA they will work fine too.  You can now use the cards interchangably across the Japanese Subway in various cities and many other forms of public transport.
@@ -31,6 +33,6 @@ The exception to be aware of it that the subway system in Tokyo isn’t 24/7 so 
 
 If you suddenly realise you’re passing stations going the wrong direction – don’t panic, get off at the next stop, cross the platform, wait a few seconds and jump on the train that stops.  It’s easy to get turned around when you’re underground and rush from an arriving train.  I think we’ve all done this at least once.  It’s far more embarrassing to admit that I’ve managed to do it in Kyoto and they only have two subway lines!  There’s also no additional cost from your original route as you don’t need to exit through the gate until your destination.
 
+![blog-3b.jpg](/uploads/blog-3b.jpg)
+
 Still have questions about getting around in Japan? [Visit Top tips for transport in Japan](https://www.2aussietravellers.com/top-tips-for-transport-in-japan/ ) and while not used on the subways themselves read [Everything you need to know about the Japan Rail Pass](https://www.2aussietravellers.com/japan-rail-pass/) to work out if it could be a budget saver for your trip.
-
-
