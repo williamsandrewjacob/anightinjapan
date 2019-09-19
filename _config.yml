@@ -25,8 +25,8 @@ description: Tiffy is a travel planning freak, formerly an Asia Pacific finance 
   sending chills down her spine, Tiffy’s wanderlust has led her  to visit Japan for
   6 times (and counting). Her favorite cities are Kyoto  and Tokyo and would choose
   to visit Japan over Paris in a heartbeat!
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: tiffyblog
 github_username: tiffyblog
 host: 100.115.92.201
