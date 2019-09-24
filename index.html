@@ -1,20 +1,56 @@
----
-title: Home
-permalink: "/"
-layout: default
----
-
-<h1>{{ site.title }}</h1>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A Night in Japan &ndash; Home</title>
+        <link rel="stylesheet" href="/assets/css/app.css">
+    </head>
+    <body>
+        <div class="circle"></div>
+        <header>
+    <a href="/" class="logo">
+        <img src="/assets/img/logo.svg" alt="A Night in Japan">
+    </a>
+    <nav>
+        <a href="/" class="active">Home</a>
+        <a href="/about/" >About</a>
+    </nav>
+</header>
+        <section>
+            <h1>A Night in Japan</h1>
 <div class="main-content">
-    {% for post in site.posts %}
+    
     <div class="article">
-        <a href="{{ post.url }}">
-            <h2>{{ post.title }}</h2>
-            <p>{{ post.excerpt }}</p>
+        <a href="/2018/10/17/everybody-wears-supreme.html">
+            <h2>Everybody wears Supreme</h2>
+            <p>One of the five supreme stores is located in omotesando in harajuku, Tokyo, and this store is a smaller one in Tokyo comparing with the other one in Shibuya.</p>
             <p class="read-more">Read more<img src="/assets/img/chevron.svg"></p>
         </a>
     </div>
     <!-- end article -->
-    {% endfor %}
+    
+    <div class="article">
+        <a href="/2018/10/16/all-of-the-lights.html">
+            <h2>All of the lights.</h2>
+            <p>The nightlife here runs the gamut, from rowdy izakayas and beer bars to red-light entertainment and the infamous Robot Restaurant.</p>
+            <p class="read-more">Read more<img src="/assets/img/chevron.svg"></p>
+        </a>
+    </div>
+    <!-- end article -->
+    
+    <div class="article">
+        <a href="/2018/10/15/five-tokyo-train-tips.html">
+            <h2>5 Tokyo train tips</h2>
+            <p>Here are my five tips to keep you sane and get you to your destination on the Tokyo Subway.</p>
+            <p class="read-more">Read more<img src="/assets/img/chevron.svg"></p>
+        </a>
+    </div>
+    <!-- end article -->
+    
 </div>
 <!-- end main content -->
+        </section>
+        <footer></footer>
+    </body>
+</html>
