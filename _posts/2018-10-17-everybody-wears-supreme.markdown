@@ -1,7 +1,8 @@
 ---
 title: Everybody wears Supreme
 date: 2018-10-17 00:00:00 Z
-excerpt: One of the five supreme stores is located in omotesando in harajuku, Tokyo, and this store is a smaller one in Tokyo comparing with the other one in Shibuya.
+excerpt: One of the five supreme stores is located in omotesando in harajuku, Tokyo,
+  and this store is a smaller one in Tokyo comparing with the other one in Shibuya.
 ---
 
 !['Sumpreme Drop' by Charles Deluvio](/uploads/blog-1a.jpg){:standalone}
