@@ -1,16 +1,20 @@
 ---
+title: Home
+permalink: "/"
 layout: default
 ---
 
 <h1>{{ site.title }}</h1>
-            <div class="main-content">{% for post in site.posts %}
-                <div class="blog-post">
-                    <a href="{{ post.url }}">
-                        <h2>{{ post.title }}</h2>
-                        <p>{{ post.excerpt }}</p>
-                        <p class="read-more">Read more<img src="/assets/img/chevron.svg"></p>
-                    </a>
-                </div>
-                <!--end blog post-->{% endfor %}
-            </div>
-            <!--end main content-->
+<div class="main-content">
+    {% for post in site.posts %}
+    <div class="article">
+        <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.excerpt }}</p>
+            <p class="read-more">Read more<img src="/assets/img/chevron.svg"></p>
+        </a>
+    </div>
+    <!-- end article -->
+    {% endfor %}
+</div>
+<!-- end main content -->

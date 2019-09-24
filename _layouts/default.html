@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ site.title }}</title>
+        <title>{{ site.title }} &ndash; {{ page.title }}</title>
         <link rel="stylesheet" href="/assets/css/app.css">
     </head>
     <body>
@@ -13,11 +13,5 @@
             {{ content }}
         </section>
         {% include footer.html %}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script type="text/javascript">
-            jQuery(document).ready(function($){
-                $('p:not(.read-more) > img').unwrap();
-            });
-        </script>
     </body>
 </html>

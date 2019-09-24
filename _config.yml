@@ -31,6 +31,10 @@ twitter_username: tiffyblog
 github_username: tiffyblog
 host: 100.115.92.201
 livereload: true
+markdown: kramdown
+kramdown:
+  auto_ids: false
 theme: minima
 plugins:
 - jekyll-feed
+- jekyll-tidy
