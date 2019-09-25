@@ -12,26 +12,59 @@ $h3: 700 24px $typeface;
 $link: 500 18px/28px $typeface;
 $blockquote: italic 500 18px/28px $typeface;
 
-$white: #f7f9ff;
-$black: #0c0c0c;
-$red: #ff3500;
-$light-grey: #e7e7e7;
+$off-white: #f7f9ff;
+$light-black: #0c0c0c;
+$crimson: #ff3500;
 
-$background: $white;
-$text: $black;
-$accent: $red;
-$selection: $light-grey;
+$pale-orange: #f7f1f5;
+$dark-orange: #ef5236;
+$cobalt: #2323ff;
+
+$blue: #000073;
+$dark-blue: #00004d;
+$deep-orange: #ff401e;
+$electric-blue: #0000ff;
+
+$navy: #0f004d;
+$dark-navy: #0c003e;
+$lime-green: #77ff55;
+$red: #ff0000;
+
+$chocolate: #462f32;
+$dark-chocolate: #312123;
+$white: #ffffff;
+$red-velvet: #993d49;
+
+$background: $off-white;
+$circle: $crimson;
+$text: $light-black;
+$accent: $crimson;
+
+@mixin topLeft() {
+    top: -446px;
+    left: -170px;
+    height: 1000px;
+    width: 1000px;
+}
+
+@mixin bottomRight() {
+    bottom: -375px;
+    right: -375px;
+    height: 750px;
+    width: 750px;
+}
 
 @mixin circle() {
-    bottom: -377px;
-    right: -377px;
-    height: 754px;
-    width: 754px;
-    background-color: $accent;
+    @include bottomRight();
+    background-color: $circle;
 }
 
 * {
     margin: 0;
+}
+
+*::selection {
+    background-color: none;
 }
 
 body {
@@ -58,10 +91,6 @@ body {
         font: $blockquote;
     }
 
-    img {
-        max-width: 780px;
-    }
-
     p {
         max-width: 540px;
     }
@@ -71,7 +100,7 @@ body {
         text-decoration: none;
     }
 
-    .circle {
+    div.circle {
         position: fixed;
         @include circle();
         border-radius: 50%;
@@ -87,8 +116,12 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    .logo {
+    a.logo {
         display: flex;
+
+        path.onigiri {
+            fill: $text;
+        }
     }
 
     nav {
@@ -97,13 +130,13 @@ header {
 
             font: $link;
         }
+
+        a.active {
+            border-bottom: 3px solid $accent;
+        }
     
         a:last-child {
             margin: 0;
-        }
-    
-        .active {
-            border-bottom: 3px solid $accent;
         }
     }
 }
@@ -116,7 +149,7 @@ section {
     h2.title {
         margin-bottom: 40px;
 
-        + p, + img {
+        + p, + figure {
             margin-top: 0;
         }
     }
@@ -125,11 +158,28 @@ section {
         margin-top: 28px;
     }
 
+    p {
+        margin-top: 28px;
+
+        + h3 {
+            margin-top: 80px;
+        }
+
+        a {
+            border-bottom: 3px solid $accent;
+        }
+    }
+
     figure {
         margin: 80px 0;
 
         img {
+            max-width: 780px;
             vertical-align: bottom;
+        }
+
+        figcaption {
+            display: none;
         }
 
         + figure {
@@ -149,26 +199,14 @@ section {
         margin-bottom: 0;
     }
 
-    figcaption {
-        display: none;
-    }
-
-    p {
-        margin-top: 28px;
-
-        + h3 {
-            margin-top: 80px;
-        }
-
-        a {
-            border-bottom: 3px solid $accent;
-        }
-    }
-
-    .main-content {
-        .article {
+    div.main-content {
+        div.article {
             max-width: 540px;
             margin-top: 80px;
+
+            p {
+                margin-top: 16px;
+            }
         
             p.read-more {
                 max-width: 102px;
@@ -176,9 +214,9 @@ section {
                 border-bottom: 3px solid $accent;
 
                 font: $link;
-        
-                img {
-                    margin: 0 0 0 7px;
+
+                path.chevron {
+                    fill: $text;
                 }
             }
         }
@@ -187,12 +225,4 @@ section {
 
 footer {
     height: 100px;
-}
-
-::selection {
-    background-color: $selection;
-}
-
-img::selection {
-    background-color: transparent;
 }
