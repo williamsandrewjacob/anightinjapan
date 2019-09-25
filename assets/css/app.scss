@@ -125,14 +125,14 @@ section {
         margin-top: 28px;
     }
 
-    figure {
+    p.standalone {
         margin: 80px 0;
 
         img {
             vertical-align: bottom;
         }
 
-        + figure {
+        + p.standalone {
             margin-top: 0;
         }
 
@@ -141,17 +141,17 @@ section {
         }
     }
 
-    figure:first-child {
+    p.standalone:first-child {
         margin-top: 0;
     }
 
-    figure:last-child {
+    p.standalone:last-child {
         margin-bottom: 0;
     }
 
-    figcaption {
+    /* figcaption {
         display: none;
-    }
+    } */
 
     p {
         margin-top: 28px;
