@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: default
 ---
 
-!['Barber Shop Neon' by Noah Buscher](/uploads/about.jpg){:standalone}
+!['Barber Shop Neon' by Noah Buscher](/uploads/about.jpg){:.standalone}
 
 ## About Tiffy
 
