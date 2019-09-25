@@ -1,11 +1,11 @@
 ---
 title: A Night in Japan
 timezone: UTC
+permalink: pretty
 collections:
   posts:
     title: Posts
     output: true
-    permalink: /:year/:month/:day/:title/
   uploads:
     title: Uploads
     output: true
