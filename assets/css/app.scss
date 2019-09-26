@@ -35,10 +35,10 @@ $dark-chocolate: #312123;
 $white: #ffffff;
 $red-velvet: #993d49;
 
-$background: $off-white;
-$circle: $crimson;
-$text: $light-black;
-$accent: $crimson;
+$background: $chocolate;
+$circle: $dark-chocolate;
+$text: $white;
+$accent: $red-velvet;
 
 @mixin topLeft() {
     top: -446px;
@@ -55,7 +55,7 @@ $accent: $crimson;
 }
 
 @mixin circle() {
-    @include bottomRight();
+    @include topLeft();
     background-color: $circle;
 }
 

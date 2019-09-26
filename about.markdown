@@ -4,9 +4,7 @@ permalink: "/about/"
 layout: default
 ---
 
-{% assign image_filename = "about-a.jpg" %}
-{% assign alt_text = "'Barber Shop Neon' by Noah Buscher" %}
-{% include figure.html %}
+!['Untitled' by Jezael Melgoza](/uploads/about-b.jpg){:standalone}
 
 ## About Tiffy
 

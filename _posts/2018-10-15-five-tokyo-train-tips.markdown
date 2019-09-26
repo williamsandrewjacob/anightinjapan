@@ -9,9 +9,7 @@ When you first arrive in Tokyo it won’t be long before you need to use the sub
 
 Known as the tōkyō chikatetsu, in English, it can be translated and referred to as the Tokyo Metro, subway or even the Tokyo Underground depending on who you are talking to but hotel concierge desks and locals we spoke to generally referred to it as the subway so we mostly stuck with that to avoid confusion.
 
-{% assign image_filename = "blog-3a.jpg" %}
-{% assign alt_text = "'Untitled' by Liam Burnett-Blue" %}
-{% include figure.html %}
+!['Untitled' by Liam Burnett-Blue](/uploads/blog-3a.jpg){:standalone}
 
 ### Stored value & discount cards
 
@@ -35,8 +33,6 @@ The exception to be aware of it that the subway system in Tokyo isn’t 24/7 so 
 
 If you suddenly realize you’re passing stations going the wrong direction – don’t panic, get off at the next stop, cross the platform, wait a few seconds and jump on the train that stops. It’s easy to get turned around when you’re underground and rush from an arriving train. I think we’ve all done this at least once. It’s far more embarrassing to admit that I’ve managed to do it in Kyoto and they only have two subway lines! There’s also no additional cost from your original route as you don’t need to exit through the gate until your destination.
 
-{% assign image_filename = "blog-3b.jpg" %}
-{% assign alt_text = "'You're waiting for a train' by Banter Snaps" %}
-{% include figure.html %}
+!['You're waiting for a train' by Banter Snaps](/uploads/blog-3b.jpg){:standalone}
 
 Still have questions about getting around in Japan? Visit [Top tips for transport in Japan](https://www.2aussietravellers.com/top-tips-for-transport-in-japan/) and while not used on the subways themselves read [Everything you need to know about the Japan Rail Pass](https://www.2aussietravellers.com/japan-rail-pass/) to work out if it could be a budget saver for your trip.
