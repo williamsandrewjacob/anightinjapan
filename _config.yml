@@ -1,7 +1,6 @@
 ---
 title: A Night in Japan
 timezone: UTC
-permalink: pretty
 collections:
   posts:
     title: Posts
@@ -20,6 +19,7 @@ defaults:
     type: posts
   values:
     layout: post
+permalink: pretty
 email: tiffy@anightinjapan.blog
 description: Tiffy is a travel planning freak, formerly an Asia Pacific finance manager  and
   currently a digital marketing ninja. Despite being a nervous flyer  with plane jolts
